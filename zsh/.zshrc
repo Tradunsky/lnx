@@ -114,7 +114,7 @@ zstyle ':completion:*' menu select=1 _complete _ignored _approximate
 bindkey '^R' history-incremental-search-backward
 alias gs="git status"
 alias ga="git add "
-alias gc="git commit "
+alias gc="git commit -m"
 alias gd="git remote add origin "
 alias gp="git push -u"
 alias ai="sudo aptitude install -y"
